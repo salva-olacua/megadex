@@ -1,0 +1,22 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+  color: white;
+  min-height: 8vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.main-nav__section--width-60 {
+  /* width: 60%; */
+  width: 60rem;
+  text-align: end;
+  padding-right: 15rem;
+}
+
+.main-nav__section--width-40 {
+  /* width: 40%; */
+  width: 40rem;
+  padding-left: 15rem;
+}

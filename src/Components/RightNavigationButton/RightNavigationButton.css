@@ -1,0 +1,16 @@
+.right-navigation-button {
+  color: white;
+  background-color: transparent;
+  width: fit-content;
+  height: fit-content;
+  border-width: 0.2px;
+  text-align: center;
+  margin-left: 63rem;
+}
+
+.right-navigation-arrow {
+  /* vertical-align: middle; */
+  max-width: 8rem;
+  /* width: 5.7rem; */
+  height: 5rem;
+}
