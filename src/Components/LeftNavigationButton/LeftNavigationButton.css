@@ -1,15 +1,16 @@
 .left-navigation-button {
   color: white;
   background-color: transparent;
-  width: fit-content;
-  height: fit-content;
-  border-width: 0.2px;
+  width: 4rem;
+  height: 3rem;
+  border: none;
   margin-left: 5rem;
+  background-image: url('left.png');
+  background-position: center;
+  background-size: cover;
+  transition: transform 150ms ease-in-out;
 }
 
-.left-navigation-arrow {
-  /* vertical-align: middle; */
-  max-width: 8rem;
-  /* width: 5.7rem; */
-  height: 5rem;
+.left-navigation-button:is(:hover, :focus) {
+  transform: scale(1.4);
 }

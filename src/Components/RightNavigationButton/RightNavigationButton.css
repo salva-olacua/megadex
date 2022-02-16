@@ -1,16 +1,17 @@
 .right-navigation-button {
   color: white;
   background-color: transparent;
-  width: fit-content;
-  height: fit-content;
-  border-width: 0.2px;
+  width: 4rem;
+  height: 3rem;
+  border: none;
   text-align: center;
   margin-left: 63rem;
+  background-image: url('right.png');
+  background-position: center;
+  background-size: cover;
+  transition: transform 150ms ease-in-out;
 }
 
-.right-navigation-arrow {
-  /* vertical-align: middle; */
-  max-width: 8rem;
-  /* width: 5.7rem; */
-  height: 5rem;
+.right-navigation-button:hover {
+  transform: scale(1.4);
 }
