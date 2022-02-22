@@ -2,9 +2,9 @@ import React from 'react';
 import rightArrow from './right.png';
 import './RightNavigationButton.css';
 
-const RightNavigationButton = () => {
+const RightNavigationButton = ({ action }) => {
   return (
-    <button className='right-navigation-button'>
+    <button onClick={ action } className='right-navigation-button'>
     </button>
   )
 };

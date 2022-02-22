@@ -1,10 +1,18 @@
-import NavigationButtons from '../NavigationButtons/NavigationButtons';
+import React, { useRef } from 'react';
+import Slider from '../Slider/Slider';
+import images from '../../images/images';
 import './MegadexView.css';
 
-const MegadexView = () => (
-  <section className='MegadexView' id='section-2'>
-    <NavigationButtons/>
-  </section>
-);
+console.log('IMAGENES: ', images);
+
+const MegadexView = () =>{
+  const view = useRef(null);
+  
+  return (
+    <section className='MegadexView' id='section-2' ref={ view }>
+      <Slider images={ images } view={ view }/>
+    </section>
+  );
+};
 
 export default MegadexView;

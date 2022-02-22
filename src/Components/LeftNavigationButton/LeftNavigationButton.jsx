@@ -1,9 +1,9 @@
 import React from 'react';
 import './LeftNavigationButton.css';
 
-const LeftNavigationButton = () => {
+const LeftNavigationButton = ({ action }) => {
   return (
-    <button className='left-navigation-button'></button>
+    <button onClick={ action } className='left-navigation-button'></button>
   )
 };
 
