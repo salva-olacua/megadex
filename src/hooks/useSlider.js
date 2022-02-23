@@ -18,10 +18,10 @@ const useSlider = (view, images) => {
   }
 
   const animateSlide = animatedSlide => {
-    animatedSlide.current.classList.add('fadeIn');
-    setTimeout(() => {
-      animatedSlide.current.classList.remove('fadeIn');
-    }, 700);
+    // animatedSlide.current.classList.add('fadeIn');
+    // setTimeout(() => {
+    //   animatedSlide.current.classList.remove('fadeIn');
+    // }, 700);
   }
 
   const goToPreviousSlide = () => {
