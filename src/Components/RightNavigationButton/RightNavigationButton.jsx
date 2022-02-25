@@ -3,8 +3,7 @@ import './RightNavigationButton.css';
 
 const RightNavigationButton = ({ action }) => {
   return (
-    <button onClick={ action } className='right-navigation-button'>
-    </button>
+    <button onClick={ action } className='right-navigation-button'/>
   )
 };
 

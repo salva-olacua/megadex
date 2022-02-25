@@ -3,7 +3,7 @@ import './LeftNavigationButton.css';
 
 const LeftNavigationButton = ({ action }) => {
   return (
-    <button onClick={ action } className='left-navigation-button'></button>
+    <button onClick={ action } className='left-navigation-button'/>
   )
 };
 

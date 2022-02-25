@@ -11,6 +11,6 @@
   transition: transform 150ms ease-in-out;
 }
 
-.left-navigation-button:is(:hover, :focus) {
+.left-navigation-button:hover {
   transform: scale(1.4);
 }
