@@ -1,20 +1,17 @@
 .main-button {
   color: white;
   background-color: transparent;
-
-  /* TODO: revisar las medidas */
-  width: 100%;
+  width: 50%;
   height: 3rem;
-
   border-width: 0.2px;
   border-radius: 50px;
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-align: center;
 }
 
 .right-arrow {
   vertical-align: middle;
   margin-left: 1.5rem;
-  max-width: 15%;
+  max-width: 11%;
   height: auto;
 }

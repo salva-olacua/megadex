@@ -1,6 +1,6 @@
 .home-banner {
-  width: 20rem;
   display: inline-block;
-  margin: 10rem;
-  margin-left: 15rem;
+  width: calc(20rem + 10vw);
+  margin: 7rem;
+  margin-left: 10rem;
 }
