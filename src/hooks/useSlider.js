@@ -6,10 +6,11 @@ const useSlider = (view, images) => {
   useEffect(() => startSlider());
 
   const startSlider = () => {
-    view.current.style.height = '100vmin';
+    view.current.style.height = '100vh';
     view.current.style.backgroundImage = `url(${images[0]})`;
     view.current.style.backgroundPosition = 'center';
     view.current.style.backgroundSize = 'cover';
+    view.current.style.backgroundAttachment = 'fixed';
   }
 
   const handleSlide = slide => {

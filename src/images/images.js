@@ -23,7 +23,6 @@ const images = [
   blaziken,
   charizard,
   gallade,
-  gengar,
   gyarados,
   kangaskhan,
   lucario,
