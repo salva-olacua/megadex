@@ -3,8 +3,6 @@ import Slider from '../Slider/Slider';
 import images from '../../images/images';
 import './MegadexView.css';
 
-console.log('IMAGENES: ', images);
-
 const MegadexView = () =>{
   const view = useRef(null);
   

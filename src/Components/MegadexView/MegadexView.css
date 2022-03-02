@@ -1,6 +1,6 @@
 .MegadexView {
   height: 100vh;
   text-align: center;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   background-color: dimgray;
 }
