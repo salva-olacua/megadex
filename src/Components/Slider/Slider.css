@@ -1,9 +1,10 @@
 .slider {
-  display: inline-block;
-  margin-top: 16rem;
+  /* display: inline-block; */
+  /* margin-top: 16rem;
   width: 100%;
-  background-color: transparent;
-  /* display: inline-flex;
+  background-color: transparent; */
+  width: 80%;
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between; */
+  justify-content: space-between;
 }

@@ -14,7 +14,11 @@ const useSlider = (view, images) => {
   }
 
   const handleSlide = slide => {
+    // view.current.style.height = '100vh';
     view.current.style.backgroundImage = `url(${images[slide - 1]})`;
+    // view.current.style.backgroundPosition = 'center';
+    // view.current.style.backgroundSize = 'cover';
+    // view.current.style.backgroundAttachment = 'fixed';
     animateSlide(view);
   }
 

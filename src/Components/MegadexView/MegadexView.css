@@ -1,10 +1,6 @@
 .MegadexView {
   height: 100vh;
-  /* height: 100%; */
-  /* width: auto; */
-  /* max-inline-size: 100%; */
-  /* inline-size: 100%; */
-  /* block-size: auto; */
-  /* position: absolute; */
+  text-align: center;
+  vertical-align: middle;
   background-color: dimgray;
 }
