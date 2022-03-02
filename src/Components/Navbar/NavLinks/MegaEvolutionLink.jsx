@@ -1,9 +1,5 @@
 import NavLink from "../NavLink/NavLink";
-
-const megaEvolutionProps = {
-  href: '#section-3',
-  text: 'MegaEvolution'
-}
+import { megaEvolutionProps } from './navLinkProps';
 
 const MegaEvolutionLink = () => <NavLink { ...megaEvolutionProps } /> 
 

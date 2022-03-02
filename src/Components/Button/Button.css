@@ -3,10 +3,11 @@
   background-color: transparent;
   width: 50%;
   height: 3rem;
-  border-width: 0.2px;
+  border-width: 1px;
   border-radius: 50px;
   font-size: 1.1em;
   text-align: center;
+  transition: transform 150ms ease-in-out;
 }
 
 .right-arrow {
@@ -14,4 +15,8 @@
   margin-left: 1.5rem;
   max-width: 11%;
   height: auto;
+}
+
+.main-button:hover {
+  transform: scale(1.1);
 }

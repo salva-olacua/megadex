@@ -1,9 +1,5 @@
 import NavLink from "../NavLink/NavLink";
-
-const MegadexProps = {
-  href: '#section-2',
-  text: 'Megadex'
-}
+import { MegadexProps } from './navLinkProps';
 
 const MegadexLink = () => <NavLink { ...MegadexProps } />
 

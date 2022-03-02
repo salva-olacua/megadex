@@ -7,7 +7,7 @@ const MegadexView = () =>{
   const view = useRef(null);
   
   return (
-    <section className='MegadexView' id='section-2' ref={ view }>
+    <section className='MegadexView' id='megadex' ref={ view }>
       <Slider images={ images } view={ view }/>
     </section>
   );

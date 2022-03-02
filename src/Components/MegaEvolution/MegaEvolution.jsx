@@ -2,17 +2,10 @@ import Banner from '../Banner/Banner';
 import Message from '../Message/Message';
 import Title from '../Title/Title';
 import './MegaEvolution.css';
-
-const titleProps = {
-  text: 'MEGA EVOLUTION'
-}
-
-const messageProps = {
-  text: 'The mega evolution occurs when a pokemon is exposed with the mega stone'
-}
+import {messageProps, titleProps} from './megaEvolutionProps';
 
 const MegaEvolution = () => (
-  <section className='MegaEvolution' id='section-3'>
+  <section className='MegaEvolution' id='megaEvolution'>
     <Banner >
       <Title { ...titleProps } />
       <Message { ...messageProps }/>

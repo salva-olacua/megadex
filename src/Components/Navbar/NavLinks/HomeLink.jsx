@@ -1,9 +1,5 @@
-import NavLink from "../NavLink/NavLink";
-
-const homeProps = {
-  href: '#section-1',
-  text: 'Home'
-}
+import NavLink from '../NavLink/NavLink';
+import { homeProps } from './navLinkProps';
 
 const HomeLink = () => <NavLink { ...homeProps } />
 
