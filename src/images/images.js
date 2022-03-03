@@ -6,7 +6,7 @@ import charizard from './megaCharizard.jpg';
 import gallade from './megaGallade.png';
 import gengar from './megaGengar.jpg';
 import gyarados from './megaGyarados.jpg';
-import kangaskhan from './megaKangaskhan.png';
+import kangaskhan from './megaKangaskhan.jpg';
 import lucario from './megaLucario.jpg';
 import mewtwo from './megaMewtwo.jpg';
 import pinsir from './megaPinsir.jpg';
@@ -16,7 +16,6 @@ import venusaur from './megaVenusaur.jpg';
 
 const images = [
   gengar,
-  rayquaza,
   aerodactyl,
   alakazam,
   blastoise,

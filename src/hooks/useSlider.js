@@ -6,27 +6,19 @@ const useSlider = (view, images) => {
   useEffect(() => startSlider());
 
   const startSlider = () => {
-    view.current.style.height = '100vh';
     view.current.style.backgroundImage = `url(${images[0]})`;
-    view.current.style.backgroundPosition = 'center';
-    view.current.style.backgroundSize = 'cover';
-    view.current.style.backgroundAttachment = 'fixed';
   }
 
   const handleSlide = slide => {
-    // view.current.style.height = '100vh';
     view.current.style.backgroundImage = `url(${images[slide - 1]})`;
-    // view.current.style.backgroundPosition = 'center';
-    // view.current.style.backgroundSize = 'cover';
-    // view.current.style.backgroundAttachment = 'fixed';
     animateSlide(view);
   }
 
   const animateSlide = animatedSlide => {
-    // animatedSlide.current.classList.add('fadeIn');
-    // setTimeout(() => {
-    //   animatedSlide.current.classList.remove('fadeIn');
-    // }, 700);
+    animatedSlide.current.classList.add('fadeIn');
+    setTimeout(() => {
+      animatedSlide.current.classList.remove('fadeIn');
+    }, 700);
   }
 
   const goToPreviousSlide = () => {
