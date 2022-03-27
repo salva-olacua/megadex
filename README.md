@@ -1,5 +1,7 @@
 # megadex
-The Megadex! It is a project made with react to be able to see the mega evolutions of the pokemons.
+
+##The Megadex!
+It is a project made with react to be able to see the mega evolutions of the pokemons.
 
 
 # Getting Started with Create React App
