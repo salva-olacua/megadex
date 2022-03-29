@@ -1,50 +1,27 @@
 import { useEffect } from 'react';
 
 const useSlider = (view, images) => {
+
   let slideCounter = 0;
 
-  useEffect(() => startSlider());
-
-  const startSlider = () => {
-    view.current.style.backgroundImage = `url(${images[0]})`;
-  }
+  useEffect( () => handleSlide(0) );
 
   const handleSlide = slide => {
-    view.current.style.backgroundImage = `url(${images[slide - 1]})`;
-    animateSlide(view);
-  }
-
-  const animateSlide = animatedSlide => {
-    animatedSlide.current.classList.add('fadeIn');
-    setTimeout(() => {
-      animatedSlide.current.classList.remove('fadeIn');
-    }, 700);
+    view.current.style.backgroundImage = `url(${images[slide]})`;
   }
 
   const goToPreviousSlide = () => {
-    if(slideCounter === 0) {
-      handleSlide(images.length);
-      slideCounter = images.length;
-      animateSlide(view);
-    }
-
-    handleSlide(slideCounter);
-    slideCounter--;
+    slideCounter = slideCounter === 0 ? images.length - 1 : slideCounter - 1;
+    handleSlide(slideCounter)
   }
 
   const goToNextSlide = () => {
-    if(slideCounter === images.length - 1) {
-      startSlider();
-      slideCounter = -1;
-      animateSlide(view);
-    }
-
-    view.current.style.backgroundImage = `url(${images[slideCounter + 1]})`;
-    slideCounter++;
-    animateSlide(view);
+    slideCounter = slideCounter === images.length - 1 ? 0 : slideCounter + 1;
+    handleSlide(slideCounter)
   }
-  
+
   return { goToPreviousSlide, goToNextSlide };
+
 }
 
 export default useSlider;

@@ -3,16 +3,8 @@
   width: 100%;
   text-align: center;
   background-size: cover;
+  /* background-repeat: no-repeat; */
   background-position: center;
   background-attachment: fixed;
   background-color: darkslategray;
-}
-
-.fadeIn {
-  animation: fadein 0.5s;
-}
-
-@keyframes fadein {
-  from{opacity: 0;}
-  to{opacity: 1;}
 }

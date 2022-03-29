@@ -6,7 +6,7 @@ import charizard from './megaCharizard.jpg';
 import gallade from './megaGallade.png';
 import gengar from './megaGengar.jpg';
 import gyarados from './megaGyarados.jpg';
-import kangaskhan from './megaKangaskhan.jpg';
+import kangaskhan from './megaKangaskhan.png';
 import lucario from './megaLucario.jpg';
 import mewtwo from './megaMewtwo.jpg';
 import pinsir from './megaPinsir.jpg';
