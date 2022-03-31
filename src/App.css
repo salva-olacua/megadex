@@ -8,11 +8,22 @@
 html {
   scroll-behavior: smooth;
   font-size: clamp(0.55rem, 0.25rem + 1vw, 1.75rem);
+  scroll-snap-type: y mandatory;
 }
 
 body {
   margin: 0;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+/* main {
+  scroll-snap-type: y mandatory;
+} */
+
+section {
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: start;
 }
 
 
